@@ -39,7 +39,7 @@ fun main(args: Array<String>) {
         v1
     }
     // when = swithch, 可以有返回值
-    var whenVar:Any = 0;
+    var whenVar:Any = 0
     var when1 = when (whenVar) {
         is String, in 1..10 -> {
             println("whenVar is String or in 1..10")
